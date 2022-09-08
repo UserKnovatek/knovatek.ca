@@ -1,0 +1,32 @@
+[29-Mar-2022 12:02:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_logo() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php on line 15
+[29-Mar-2022 12:58:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_header_markup() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php on line 15
+[10-Jul-2022 21:12:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_logo() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php on line 15
+[10-Jul-2022 21:12:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_logo() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php on line 15
+[10-Jul-2022 21:12:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_logo() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/site-branding.php on line 15
+[11-Jul-2022 06:23:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_header_markup() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php on line 15
+[11-Jul-2022 06:23:41 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_header_markup() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php on line 15
+[11-Jul-2022 06:23:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function the_custom_header_markup() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/header/header-image.php on line 15

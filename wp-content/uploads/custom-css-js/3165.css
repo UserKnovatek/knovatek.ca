@@ -1,0 +1,10 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#wp-admin-bar-root-default li#wp-admin-bar-nitropack-top-menu{display:none;!important}
+
+#wpadminbar li:nth-child(4){display:none;!important}
+#wp-admin-bar-nitropack-top-menu{display:none;!important}
+#wpadminbar ul#wp-admin-bar-root-default > li:nth-of-type(4){display:none;!important}
+#wpadminbar ul#wp-admin-bar-root-default > li:nth-of-type(3){display:none;!important}
+#wpadminbar ul#wp-admin-bar-root-default > li:nth-child(3){display:none;!important}</style>
+<!-- end Simple Custom CSS and JS -->

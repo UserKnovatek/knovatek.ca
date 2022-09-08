@@ -1,0 +1,32 @@
+[29-Mar-2022 16:10:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php on line 18
+[29-Mar-2022 17:11:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php on line 14
+[09-Jul-2022 14:26:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php on line 14
+[09-Jul-2022 14:26:45 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php on line 14
+[09-Jul-2022 14:26:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/footer-widgets.php on line 14
+[11-Jul-2022 08:48:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php on line 18
+[11-Jul-2022 08:48:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php on line 18
+[11-Jul-2022 08:48:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/knovkope/public_html/wp-content/themes/twentyseventeen/template-parts/footer/site-info.php on line 18

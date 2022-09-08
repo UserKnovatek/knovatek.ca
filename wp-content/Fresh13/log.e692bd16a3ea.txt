@@ -1,0 +1,683 @@
+0000.000 (0) Opened log file at time: Tue, 28 Sep 2021 02:52:22 +0000 on https://knovatek.ca
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.61 WP: 5.8.1 PHP: 7.2.34 (litespeed, Linux premium84.web-hosting.com 2.6.32-954.3.5.lve1.4.78.el6.x86_64 #1 SMP Thu Mar 26 08:20:27 EDT 2020 x86_64) MySQL: 10.3.31-MariaDB-log-cll-lve (max packet size=1048576000) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 12.2M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.042 (0) Free space on disk containing Updraft's temporary directory: 1838202.2 MB
+0000.044 (0) Deleting old log file: log.8ec5e2659108.txt
+0000.046 (0) Deleting old log file: log.f8ad0d1fffa4.txt
+0000.048 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.050 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.051 (0) Set semaphore last lock (fd) time to 2021-09-28 02:52:22
+0000.051 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=e692bd16a3ea, file_nonce=e692bd16a3ea begun at=1632797542 (0s ago), job type=backup
+0000.054 (0) Scheduling a resumption (1) after 300 seconds (1632797842) in case this run gets aborted
+0000.075 (0) Checking if we have a zip executable available
+0000.076 (0) Testing: /usr/bin/zip
+0000.082 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.083 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.083 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.084 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.084 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.090 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.091 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.092 (0) Working binary zip found: /usr/bin/zip
+0000.094 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.094 (0) Creation of backups of directories: beginning
+0000.097 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.179 (0) Total entities for the zip file: 1382 directories, 7688 files (0 skipped as non-modified), 114.9 MB
+0001.183 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.185 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.187 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.189 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.192 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.194 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.196 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.198 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.201 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.203 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.203 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.5 MB, 7688 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.322 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: size is now: 2.60 MB
+0002.334 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1100 files added (on-disk size: 2653.9 KB)
+0002.337 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1200 files added (on-disk size: 2653.9 KB)
+0002.339 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1300 files added (on-disk size: 2653.9 KB)
+0002.342 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1400 files added (on-disk size: 2653.9 KB)
+0002.344 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1500 files added (on-disk size: 2653.9 KB)
+0002.347 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1600 files added (on-disk size: 2653.9 KB)
+0002.349 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1700 files added (on-disk size: 2653.9 KB)
+0002.352 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1800 files added (on-disk size: 2653.9 KB)
+0002.354 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 1900 files added (on-disk size: 2653.9 KB)
+0002.357 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2000 files added (on-disk size: 2653.9 KB)
+0002.357 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.4 MB, 7688 files batched, 1001 (2002) added so far); re-opening (prior size: 2653.9 KB)
+0003.408 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: size is now: 8.20 MB
+0003.413 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2100 files added (on-disk size: 8447.9 KB)
+0003.416 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2200 files added (on-disk size: 8447.9 KB)
+0003.418 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2300 files added (on-disk size: 8447.9 KB)
+0003.421 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2400 files added (on-disk size: 8447.9 KB)
+0003.424 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2500 files added (on-disk size: 8447.9 KB)
+0003.428 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2600 files added (on-disk size: 8447.9 KB)
+0003.431 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2700 files added (on-disk size: 8447.9 KB)
+0003.434 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2800 files added (on-disk size: 8447.9 KB)
+0003.439 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 2900 files added (on-disk size: 8447.9 KB)
+0003.442 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3000 files added (on-disk size: 8447.9 KB)
+0003.442 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.1 MB, 7688 files batched, 1001 (3003) added so far); re-opening (prior size: 8447.9 KB)
+0005.279 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: size is now: 13.20 MB
+0005.283 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3100 files added (on-disk size: 13543.6 KB)
+0005.285 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3200 files added (on-disk size: 13543.6 KB)
+0005.287 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3300 files added (on-disk size: 13543.6 KB)
+0005.289 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3400 files added (on-disk size: 13543.6 KB)
+0005.291 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3500 files added (on-disk size: 13543.6 KB)
+0005.293 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3600 files added (on-disk size: 13543.6 KB)
+0005.295 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3700 files added (on-disk size: 13543.6 KB)
+0005.297 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 7688 files batched, 790 (3793) added so far); re-opening (prior size: 13543.6 KB)
+0007.209 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: size is now: 20.40 MB
+0007.230 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.4 s, rate: 10579.8 KB/s)
+0007.231 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.4206569194794, normalised_time=2.4197101510231, max_time=7.2301721572876, data points known=1, old_max_bytes=26214400, new_max_bytes=65002165)
+0007.232 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3800 files added (on-disk size: 20935.1 KB)
+0007.234 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 3900 files added (on-disk size: 20935.1 KB)
+0007.236 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4000 files added (on-disk size: 20935.1 KB)
+0007.238 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4100 files added (on-disk size: 20935.1 KB)
+0007.240 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4200 files added (on-disk size: 20935.1 KB)
+0007.242 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4300 files added (on-disk size: 20935.1 KB)
+0007.244 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4400 files added (on-disk size: 20935.1 KB)
+0007.246 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4500 files added (on-disk size: 20935.1 KB)
+0007.248 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4600 files added (on-disk size: 20935.1 KB)
+0007.251 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4700 files added (on-disk size: 20935.1 KB)
+0007.253 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.3 MB, 7688 files batched, 1001 (4794) added so far); re-opening (prior size: 20935.1 KB)
+0008.476 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4800 files added (on-disk size: 23810 KB)
+0008.480 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 4900 files added (on-disk size: 23810 KB)
+0008.484 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5000 files added (on-disk size: 23810 KB)
+0008.486 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5100 files added (on-disk size: 23810 KB)
+0008.489 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5200 files added (on-disk size: 23810 KB)
+0008.492 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5300 files added (on-disk size: 23810 KB)
+0008.495 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5400 files added (on-disk size: 23810 KB)
+0008.500 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5500 files added (on-disk size: 23810 KB)
+0008.503 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5600 files added (on-disk size: 23810 KB)
+0008.507 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5700 files added (on-disk size: 23810 KB)
+0008.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.4 MB, 7688 files batched, 1001 (5795) added so far); re-opening (prior size: 23810 KB)
+0009.560 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: size is now: 30.30 MB
+0009.565 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5800 files added (on-disk size: 31049.2 KB)
+0009.568 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 5900 files added (on-disk size: 31049.2 KB)
+0009.571 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6000 files added (on-disk size: 31049.2 KB)
+0009.579 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6100 files added (on-disk size: 31049.2 KB)
+0009.581 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6200 files added (on-disk size: 31049.2 KB)
+0009.583 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6300 files added (on-disk size: 31049.2 KB)
+0009.586 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6400 files added (on-disk size: 31049.2 KB)
+0009.588 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6500 files added (on-disk size: 31049.2 KB)
+0009.590 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6600 files added (on-disk size: 31049.2 KB)
+0009.592 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6700 files added (on-disk size: 31049.2 KB)
+0009.594 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.6 MB, 7688 files batched, 1001 (6796) added so far); re-opening (prior size: 31049.2 KB)
+0011.242 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6800 files added (on-disk size: 34354.6 KB)
+0011.245 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 6900 files added (on-disk size: 34354.6 KB)
+0011.248 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7000 files added (on-disk size: 34354.6 KB)
+0011.251 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7100 files added (on-disk size: 34354.6 KB)
+0011.254 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7200 files added (on-disk size: 34354.6 KB)
+0011.256 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7300 files added (on-disk size: 34354.6 KB)
+0011.258 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7400 files added (on-disk size: 34354.6 KB)
+0011.260 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7500 files added (on-disk size: 34354.6 KB)
+0011.263 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip.tmp: 7600 files added (on-disk size: 34354.6 KB)
+0012.981 (0) Created plugins zip (0) - 37617.9 KB in 12.8 s (2928.8 KB/s) (sha1: f7e3e06dc3ba0e971b1d03222cfc5ebbe0c2f991, sha256: 6ea875f606b0220e6d32245249d9c06e1335a9e154e47bd4c1b0c107dfb85241)
+0012.983 (0) Beginning creation of dump of themes (split every: 400 MB)
+0013.034 (0) Total entities for the zip file: 13 directories, 62 files (0 skipped as non-modified), 1.9 MB
+0013.111 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-themes.zip.tmp: size is now: 1.60 MB
+0013.130 (0) Created themes zip (0) - 1657.7 KB in 0.1 s (15790.4 KB/s) (sha1: 243bb06f6ef0d5d6fac7feb3bfc3b45d79289392, sha256: f206f9af51f0357c30090dc8f63dfe6f5bfa9c2451f938b4c89d4ac9cdc13156)
+0013.137 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0013.137 (0) Looking for candidates to backup in: /home/knovkope/public_html/wp-content/uploads
+0013.138 (0) finding files: wc-logs: adding to list (1)
+0013.138 (0) finding files: form-vibes: adding to list (2)
+0013.139 (0) finding files: wpcf7_uploads: adding to list (3)
+0013.139 (0) finding files: elementor: adding to list (4)
+0013.139 (0) finding files: cache: adding to list (5)
+0013.139 (0) finding files: wp-file-manager-pro: adding to list (6)
+0013.140 (0) finding files: 2020: adding to list (7)
+0013.140 (0) finding files: pum: adding to list (8)
+0013.141 (0) finding files: 2021: adding to list (9)
+0013.141 (0) finding files: forminator: adding to list (10)
+0013.142 (0) finding files: bws-custom-code: adding to list (11)
+0013.142 (0) finding files: woocommerce_uploads: adding to list (12)
+0013.143 (0) finding files: custom-css-js: adding to list (13)
+0013.143 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0013.252 (0) Total entities for the zip file: 33 directories, 1379 files (0 skipped as non-modified), 109.3 MB
+0013.256 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0013.259 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0013.261 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0013.264 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0013.271 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0013.273 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0013.276 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0013.278 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0013.281 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0013.282 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 62 MB added on this batch (62.1 MB, 1379 files batched, 928 (928) added so far); re-opening (prior size: 0 KB)
+0016.953 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: size is now: 61.50 MB
+0016.957 (0) A useful amount of data was added after this amount of zip processing: 4.1 s (normalised: 4.1 s, rate: 15339.7 KB/s)
+0016.958 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.1481149196625, normalised_time=4.1381968833838, max_time=16.957641124725, data points known=1, old_max_bytes=65002165, new_max_bytes=159820823)
+0016.961 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 1000 files added (on-disk size: 62951.8 KB)
+0016.963 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 1100 files added (on-disk size: 62951.8 KB)
+0016.965 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 1200 files added (on-disk size: 62951.8 KB)
+0016.967 (0) Zip: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: 1300 files added (on-disk size: 62951.8 KB)
+0020.891 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip.tmp: size is now: 108.70 MB
+0022.120 (0) Created uploads zip (0) - 111281.4 KB in 8.9 s (12451.3 KB/s) (sha1: 51027a4b05b782e9bb4df79b34aa629a0a1c68ac, sha256: 668524d9cdb92c3e0a1f557a217e94e6a4000f655152ac324517ff4d3a7794e2)
+0022.122 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.122 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0022.123 (0) Looking for candidates to backup in: /home/knovkope/public_html/wp-content
+0022.123 (0) finding files: advanced-cache.php: adding to list (1)
+0022.123 (0) finding files: index.php: adding to list (2)
+0022.124 (0) finding files: plugins: skipping: this is the plugins directory
+0022.124 (0) finding files: themes: skipping: this is the themes directory
+0022.124 (0) finding files: mu-plugins: adding to list (3)
+0022.124 (0) finding files: nitropack: adding to list (4)
+0022.125 (0) finding files: uploads: skipping: this is the uploads directory
+0022.125 (0) finding files: Fresh13: skipping: this is the updraft directory
+0022.125 (0) finding files: upgrade: skipping: excluded by options
+0022.125 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0022.170 (0) Total entities for the zip file: 5 directories, 8 files (0 skipped as non-modified), 0 MB
+0022.179 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-others.zip.tmp: size is now: 0.00 MB
+0022.182 (0) Created others zip (0) - 7.3 KB in 0 s (517.6 KB/s) (sha1: 3c3194b06bedf65071bb54a87fc7390f4a97b6f6, sha256: b2852f50f2fe75bdad44a5c5edf034f39adbc458e576832e18cda7a982537f88)
+0022.185 (0) Saving backup status to database (elements: 8)
+0022.186 (0) Beginning creation of database dump (WordPress DB)
+0022.187 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0022.188 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0022.206 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpks_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1549 bytes total)
+0022.207 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0022.230 (0) Table wpks_options: Total expected rows (approximate): 838
+0022.267 (0) Table wpks_options: Rows added in this batch (next record: 56633): 834 (uncompressed bytes in this segment=791924) in 0.04 seconds
+0022.270 (0) Table wpks_options: finishing file(s) (2, 100.5 KB)
+0022.272 (0) Table wpks_users: Total expected rows (approximate): 1
+0022.274 (0) Table wpks_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1404) in 0.00 seconds
+0022.276 (0) Table wpks_users: finishing file(s) (2, 0.6 KB)
+0022.277 (0) Table wpks_usermeta: Total expected rows (approximate): 54
+0022.280 (0) Table wpks_usermeta: Rows added in this batch (next record: 72): 54 (uncompressed bytes in this segment=10337) in 0.00 seconds
+0022.283 (0) Table wpks_usermeta: finishing file(s) (2, 3.5 KB)
+0022.284 (0) Table wpks_actionscheduler_actions: Total expected rows (approximate): 24
+0022.288 (0) Table wpks_actionscheduler_actions: Rows added in this batch (next record: 406): 24 (uncompressed bytes in this segment=7918) in 0.00 seconds
+0022.290 (0) Table wpks_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0022.292 (0) Table wpks_actionscheduler_claims: Total expected rows (approximate): 0
+0022.293 (0) Table wpks_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0022.295 (0) Table wpks_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0022.297 (0) Table wpks_actionscheduler_groups: Total expected rows (approximate): 2
+0022.298 (0) Table wpks_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=725) in 0.00 seconds
+0022.300 (0) Table wpks_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0022.301 (0) Table wpks_actionscheduler_logs: Total expected rows (approximate): 72
+0022.303 (0) Table wpks_actionscheduler_logs: Rows added in this batch (next record: 351): 72 (uncompressed bytes in this segment=7121) in 0.00 seconds
+0022.305 (0) Table wpks_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0022.308 (0) Table wpks_commentmeta: Total expected rows (approximate): 0
+0022.310 (0) Table wpks_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=726) in 0.00 seconds
+0022.318 (0) Table wpks_commentmeta: finishing file(s) (2, 0.4 KB)
+0022.321 (0) Table wpks_comments: Total expected rows (approximate): 4
+0022.328 (0) Table wpks_comments: Rows added in this batch (next record: 14): 4 (uncompressed bytes in this segment=5280) in 0.01 seconds
+0022.331 (0) Table wpks_comments: finishing file(s) (2, 1.8 KB)
+0022.334 (0) Table wpks_links: Total expected rows (approximate): 0
+0022.335 (0) Table wpks_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1318) in 0.00 seconds
+0022.338 (0) Table wpks_links: finishing file(s) (2, 0.5 KB)
+0022.341 (0) Table wpks_postmeta: Total expected rows (approximate): 19123
+0025.894 (0) Table wpks_postmeta: binary mysqldump finished (writes: 164, bytes 131191333, return code 0) in 3.55 seconds
+0025.896 (0) Table wpks_postmeta: finishing file(s) (1, 11053.3 KB)
+0025.899 (0) Table wpks_posts: Total expected rows (approximate): 3204
+0026.968 (0) Table wpks_posts: Rows added in this batch (next record: 3617): 3204 (uncompressed bytes in this segment=42262540) in 1.07 seconds
+0026.972 (0) Table wpks_posts: finishing file(s) (2, 4218.9 KB)
+0026.975 (0) Table wpks_term_relationships: Total expected rows (approximate): 112
+0026.978 (0) Table wpks_term_relationships: Rows added in this batch (next record: 100000): 112 (uncompressed bytes in this segment=2358) in 0.00 seconds
+0026.980 (0) Table wpks_term_relationships: finishing file(s) (2, 0.7 KB)
+0026.983 (0) Table wpks_term_taxonomy: Total expected rows (approximate): 30
+0026.986 (0) Table wpks_term_taxonomy: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=2063) in 0.00 seconds
+0026.989 (0) Table wpks_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0026.992 (0) Table wpks_termmeta: Total expected rows (approximate): 0
+0026.996 (0) Table wpks_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0026.998 (0) Table wpks_termmeta: finishing file(s) (2, 0.4 KB)
+0027.001 (0) Table wpks_terms: Total expected rows (approximate): 30
+0027.004 (0) Table wpks_terms: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=2072) in 0.00 seconds
+0027.010 (0) Table wpks_terms: finishing file(s) (2, 0.8 KB)
+0027.013 (0) Table wpks_frmt_form_entry: Total expected rows (approximate): 0
+0027.014 (0) Table wpks_frmt_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=793) in 0.00 seconds
+0027.017 (0) Table wpks_frmt_form_entry: finishing file(s) (2, 0.4 KB)
+0027.020 (0) Table wpks_frmt_form_entry_meta: Total expected rows (approximate): 0
+0027.023 (0) Table wpks_frmt_form_entry_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=927) in 0.00 seconds
+0027.025 (0) Table wpks_frmt_form_entry_meta: finishing file(s) (2, 0.4 KB)
+0027.028 (0) Table wpks_frmt_form_views: Total expected rows (approximate): 1
+0027.032 (0) Table wpks_frmt_form_views: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1093) in 0.00 seconds
+0027.034 (0) Table wpks_frmt_form_views: finishing file(s) (2, 0.5 KB)
+0027.037 (0) Table wpks_fv_enteries: Total expected rows (approximate): 319
+0027.043 (0) Table wpks_fv_enteries: Rows added in this batch (next record: 319): 319 (uncompressed bytes in this segment=76338) in 0.01 seconds
+0027.046 (0) Table wpks_fv_enteries: finishing file(s) (2, 5.1 KB)
+0027.049 (0) Table wpks_fv_entry_meta: Total expected rows (approximate): 1653
+0027.069 (0) Table wpks_fv_entry_meta: Rows added in this batch (next record: 1653): 1653 (uncompressed bytes in this segment=75503) in 0.02 seconds
+0027.072 (0) Table wpks_fv_entry_meta: finishing file(s) (2, 14.6 KB)
+0027.075 (0) Table wpks_fv_logs: Total expected rows (approximate): 0
+0027.078 (0) Table wpks_fv_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=732) in 0.00 seconds
+0027.080 (0) Table wpks_fv_logs: finishing file(s) (2, 0.4 KB)
+0027.082 (0) Table wpks_gglcptch_allowlist: Total expected rows (approximate): 0
+0027.083 (0) Table wpks_gglcptch_allowlist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=605) in 0.00 seconds
+0027.085 (0) Table wpks_gglcptch_allowlist: finishing file(s) (2, 0.4 KB)
+0027.087 (0) Table wpks_grp_google_place: Total expected rows (approximate): 0
+0027.089 (0) Table wpks_grp_google_place: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1082) in 0.00 seconds
+0027.091 (0) Table wpks_grp_google_place: finishing file(s) (2, 0.4 KB)
+0027.094 (0) Table wpks_grp_google_review: Total expected rows (approximate): 0
+0027.096 (0) Table wpks_grp_google_review: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1171) in 0.00 seconds
+0027.098 (0) Table wpks_grp_google_review: finishing file(s) (2, 0.5 KB)
+0027.101 (0) Table wpks_litespeed_url: Total expected rows (approximate): 0
+0027.102 (0) Table wpks_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=651) in 0.00 seconds
+0027.104 (0) Table wpks_litespeed_url: finishing file(s) (2, 0.4 KB)
+0027.106 (0) Table wpks_litespeed_url_file: Total expected rows (approximate): 0
+0027.108 (0) Table wpks_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=867) in 0.00 seconds
+0027.110 (0) Table wpks_litespeed_url_file: finishing file(s) (2, 0.4 KB)
+0027.113 (0) Table wpks_loginizer_logs: Total expected rows (approximate): 0
+0027.114 (0) Table wpks_loginizer_logs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=613) in 0.00 seconds
+0027.116 (0) Table wpks_loginizer_logs: finishing file(s) (2, 0.3 KB)
+0027.119 (0) Table wpks_nextend2_image_storage: Total expected rows (approximate): 0
+0027.120 (0) Table wpks_nextend2_image_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.00 seconds
+0027.122 (0) Table wpks_nextend2_image_storage: finishing file(s) (2, 0.4 KB)
+0027.124 (0) Table wpks_nextend2_section_storage: Total expected rows (approximate): 2
+0027.126 (0) Table wpks_nextend2_section_storage: Rows added in this batch (next record: 10001): 2 (uncompressed bytes in this segment=1311) in 0.00 seconds
+0027.128 (0) Table wpks_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0027.131 (0) Table wpks_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0027.133 (0) Table wpks_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=730) in 0.00 seconds
+0027.136 (0) Table wpks_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0027.139 (0) Table wpks_nextend2_smartslider3_sliders: Total expected rows (approximate): 1
+0027.142 (0) Table wpks_nextend2_smartslider3_sliders: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=21219) in 0.00 seconds
+0027.144 (0) Table wpks_nextend2_smartslider3_sliders: finishing file(s) (2, 3.9 KB)
+0027.148 (0) Table wpks_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 0
+0027.149 (0) Table wpks_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=671) in 0.00 seconds
+0027.151 (0) Table wpks_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.3 KB)
+0027.157 (0) Table wpks_nextend2_smartslider3_slides: Total expected rows (approximate): 2
+0027.161 (0) Table wpks_nextend2_smartslider3_slides: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=31568) in 0.00 seconds
+0027.163 (0) Table wpks_nextend2_smartslider3_slides: finishing file(s) (2, 2.9 KB)
+0027.166 (0) Table wpks_smush_dir_images: Total expected rows (approximate): 0
+0027.168 (0) Table wpks_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1118) in 0.00 seconds
+0027.170 (0) Table wpks_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0027.172 (0) Table wpks_wc_admin_note_actions: Total expected rows (approximate): 10
+0027.175 (0) Table wpks_wc_admin_note_actions: Rows added in this batch (next record: 31): 10 (uncompressed bytes in this segment=2339) in 0.00 seconds
+0027.177 (0) Table wpks_wc_admin_note_actions: finishing file(s) (2, 0.9 KB)
+0027.180 (0) Table wpks_wc_admin_notes: Total expected rows (approximate): 10
+0027.183 (0) Table wpks_wc_admin_notes: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=7120) in 0.00 seconds
+0027.186 (0) Table wpks_wc_admin_notes: finishing file(s) (2, 1.9 KB)
+0027.189 (0) Table wpks_wc_category_lookup: Total expected rows (approximate): 1
+0027.190 (0) Table wpks_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=603) in 0.00 seconds
+0027.193 (0) Table wpks_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0027.195 (0) Table wpks_wc_customer_lookup: Total expected rows (approximate): 0
+0027.197 (0) Table wpks_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1278) in 0.00 seconds
+0027.199 (0) Table wpks_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0027.202 (0) Table wpks_wc_download_log: Total expected rows (approximate): 0
+0027.203 (0) Table wpks_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=759) in 0.00 seconds
+0027.206 (0) Table wpks_wc_download_log: finishing file(s) (2, 0.4 KB)
+0027.208 (0) Table wpks_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0027.209 (0) Table wpks_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0027.212 (0) Table wpks_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0027.215 (0) Table wpks_wc_order_product_lookup: Total expected rows (approximate): 0
+0027.226 (0) Table wpks_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0027.229 (0) Table wpks_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0027.232 (0) Table wpks_wc_order_stats: Total expected rows (approximate): 0
+0027.233 (0) Table wpks_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1122) in 0.00 seconds
+0027.236 (0) Table wpks_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0027.239 (0) Table wpks_wc_order_tax_lookup: Total expected rows (approximate): 0
+0027.240 (0) Table wpks_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0027.243 (0) Table wpks_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0027.246 (0) Table wpks_wc_product_meta_lookup: Total expected rows (approximate): 0
+0027.247 (0) Table wpks_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1361) in 0.00 seconds
+0027.249 (0) Table wpks_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0027.252 (0) Table wpks_wc_reserved_stock: Total expected rows (approximate): 0
+0027.253 (0) Table wpks_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0027.257 (0) Table wpks_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0027.259 (0) Table wpks_wc_tax_rate_classes: Total expected rows (approximate): 2
+0027.267 (0) Table wpks_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=826) in 0.00 seconds
+0027.270 (0) Table wpks_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0027.273 (0) Table wpks_wc_webhooks: Total expected rows (approximate): 0
+0027.275 (0) Table wpks_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1238) in 0.00 seconds
+0027.290 (0) Table wpks_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0027.293 (0) Table wpks_weforms_entries: Total expected rows (approximate): 0
+0027.295 (0) Table wpks_weforms_entries: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.00 seconds
+0027.297 (0) Table wpks_weforms_entries: finishing file(s) (2, 0.4 KB)
+0027.301 (0) Table wpks_weforms_entrymeta: Total expected rows (approximate): 0
+0027.304 (0) Table wpks_weforms_entrymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=748) in 0.00 seconds
+0027.307 (0) Table wpks_weforms_entrymeta: finishing file(s) (2, 0.4 KB)
+0027.310 (0) Table wpks_woocommerce_api_keys: Total expected rows (approximate): 0
+0027.313 (0) Table wpks_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1071) in 0.00 seconds
+0027.320 (0) Table wpks_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0027.323 (0) Table wpks_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0027.324 (0) Table wpks_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=971) in 0.00 seconds
+0027.326 (0) Table wpks_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0027.331 (0) Table wpks_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0027.332 (0) Table wpks_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1546) in 0.00 seconds
+0027.335 (0) Table wpks_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0027.337 (0) Table wpks_woocommerce_log: Total expected rows (approximate): 0
+0027.339 (0) Table wpks_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.00 seconds
+0027.342 (0) Table wpks_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0027.348 (0) Table wpks_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0027.351 (0) Table wpks_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=796) in 0.00 seconds
+0027.354 (0) Table wpks_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0027.356 (0) Table wpks_woocommerce_order_items: Total expected rows (approximate): 0
+0027.358 (0) Table wpks_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0027.361 (0) Table wpks_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0027.364 (0) Table wpks_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0027.367 (0) Table wpks_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=823) in 0.00 seconds
+0027.370 (0) Table wpks_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0027.373 (0) Table wpks_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0027.375 (0) Table wpks_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=849) in 0.00 seconds
+0027.377 (0) Table wpks_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0027.380 (0) Table wpks_woocommerce_sessions: Total expected rows (approximate): 1
+0027.383 (0) Table wpks_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2177) in 0.00 seconds
+0027.385 (0) Table wpks_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0027.388 (0) Table wpks_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0027.389 (0) Table wpks_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=886) in 0.00 seconds
+0027.391 (0) Table wpks_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0027.394 (0) Table wpks_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0027.395 (0) Table wpks_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=785) in 0.00 seconds
+0027.397 (0) Table wpks_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0027.399 (0) Table wpks_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0027.400 (0) Table wpks_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0027.402 (0) Table wpks_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0027.404 (0) Table wpks_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0027.405 (0) Table wpks_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=860) in 0.00 seconds
+0027.407 (0) Table wpks_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0027.410 (0) Table wpks_woocommerce_tax_rates: Total expected rows (approximate): 0
+0027.411 (0) Table wpks_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1309) in 0.00 seconds
+0027.413 (0) Table wpks_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0027.415 (0) Table wpks_wpf_meta: Total expected rows (approximate): 229
+0027.420 (0) Table wpks_wpf_meta: Rows added in this batch (next record: 229): 229 (uncompressed bytes in this segment=34032) in 0.00 seconds
+0027.422 (0) Table wpks_wpf_meta: finishing file(s) (2, 8.4 KB)
+0027.425 (0) Table wpks_wpf_order_items: Total expected rows (approximate): 111
+0027.429 (0) Table wpks_wpf_order_items: Rows added in this batch (next record: 113): 111 (uncompressed bytes in this segment=15658) in 0.00 seconds
+0027.431 (0) Table wpks_wpf_order_items: finishing file(s) (2, 2.1 KB)
+0027.434 (0) Table wpks_wpf_order_transactions: Total expected rows (approximate): 111
+0027.438 (0) Table wpks_wpf_order_transactions: Rows added in this batch (next record: 113): 111 (uncompressed bytes in this segment=17972) in 0.00 seconds
+0027.441 (0) Table wpks_wpf_order_transactions: finishing file(s) (2, 2.2 KB)
+0027.443 (0) Table wpks_wpf_submission_activities: Total expected rows (approximate): 115
+0027.448 (0) Table wpks_wpf_submission_activities: Rows added in this batch (next record: 119): 115 (uncompressed bytes in this segment=17017) in 0.00 seconds
+0027.450 (0) Table wpks_wpf_submission_activities: finishing file(s) (2, 2 KB)
+0027.453 (0) Table wpks_wpf_submissions: Total expected rows (approximate): 111
+0027.459 (0) Table wpks_wpf_submissions: Rows added in this batch (next record: 113): 111 (uncompressed bytes in this segment=80238) in 0.01 seconds
+0027.462 (0) Table wpks_wpf_submissions: finishing file(s) (2, 10.6 KB)
+0027.464 (0) Table wpks_wpf_subscriptions: Total expected rows (approximate): 0
+0027.467 (0) Table wpks_wpf_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2025) in 0.00 seconds
+0027.469 (0) Table wpks_wpf_subscriptions: finishing file(s) (2, 0.6 KB)
+0027.476 (0) Table wpks_wpfm_backup: Total expected rows (approximate): 0
+0027.477 (0) Table wpks_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=552) in 0.00 seconds
+0027.480 (0) Table wpks_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0027.482 (0) Table wpks_wpmailsmtp_debug_events: Total expected rows (approximate): 0
+0027.484 (0) Table wpks_wpmailsmtp_debug_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=745) in 0.00 seconds
+0027.485 (0) Table wpks_wpmailsmtp_debug_events: finishing file(s) (2, 0.4 KB)
+0027.488 (0) Table wpks_wpmailsmtp_tasks_meta: Total expected rows (approximate): 85
+0027.493 (0) Table wpks_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 85): 85 (uncompressed bytes in this segment=7578) in 0.00 seconds
+0027.495 (0) Table wpks_wpmailsmtp_tasks_meta: finishing file(s) (2, 1.3 KB)
+0027.498 (0) Table wpks_yoast_indexable: Total expected rows (approximate): 261
+0027.514 (0) Table wpks_yoast_indexable: Rows added in this batch (next record: 312): 261 (uncompressed bytes in this segment=133632) in 0.02 seconds
+0027.518 (0) Table wpks_yoast_indexable: finishing file(s) (2, 20.2 KB)
+0027.521 (0) Table wpks_yoast_indexable_hierarchy: Total expected rows (approximate): 260
+0027.523 (0) Table wpks_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 260 (uncompressed bytes in this segment=5204) in 0.00 seconds
+0027.525 (0) Table wpks_yoast_indexable_hierarchy: finishing file(s) (2, 1.1 KB)
+0027.528 (0) Table wpks_yoast_migrations: Total expected rows (approximate): 21
+0027.531 (0) Table wpks_yoast_migrations: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1165) in 0.00 seconds
+0027.534 (0) Table wpks_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0027.536 (0) Table wpks_yoast_primary_term: Total expected rows (approximate): 1
+0027.538 (0) Table wpks_yoast_primary_term: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1011) in 0.00 seconds
+0027.542 (0) Table wpks_yoast_primary_term: finishing file(s) (2, 0.5 KB)
+0027.545 (0) Table wpks_yoast_seo_links: Total expected rows (approximate): 322
+0027.551 (0) Table wpks_yoast_seo_links: Rows added in this batch (next record: 51777): 322 (uncompressed bytes in this segment=40113) in 0.01 seconds
+0027.555 (0) Table wpks_yoast_seo_links: finishing file(s) (2, 5.8 KB)
+0027.556 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_options.table.tmpr56634.gz (1/78/fopen): adding to final database dump
+0027.557 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_options.table.gz (2/78/fopen): adding to final database dump
+0027.558 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_users.table.tmpr2.gz (3/78/fopen): adding to final database dump
+0027.558 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_users.table.gz (4/78/fopen): adding to final database dump
+0027.559 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_usermeta.table.tmpr73.gz (5/78/fopen): adding to final database dump
+0027.559 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_usermeta.table.gz (6/78/fopen): adding to final database dump
+0027.559 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_actions.table.tmpr407.gz (7/78/fopen): adding to final database dump
+0027.559 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_actions.table.gz (8/78/fopen): adding to final database dump
+0027.560 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_claims.table.tmpr0.gz (9/78/fopen): adding to final database dump
+0027.560 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_claims.table.gz (10/78/fopen): adding to final database dump
+0027.560 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_groups.table.tmpr3.gz (11/78/fopen): adding to final database dump
+0027.561 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_groups.table.gz (12/78/fopen): adding to final database dump
+0027.561 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_logs.table.tmpr352.gz (13/78/fopen): adding to final database dump
+0027.561 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_actionscheduler_logs.table.gz (14/78/fopen): adding to final database dump
+0027.562 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_commentmeta.table.tmpr0.gz (15/78/fopen): adding to final database dump
+0027.562 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_commentmeta.table.gz (16/78/fopen): adding to final database dump
+0027.562 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_comments.table.tmpr15.gz (17/78/fopen): adding to final database dump
+0027.563 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_comments.table.gz (18/78/fopen): adding to final database dump
+0027.564 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_links.table.tmpr0.gz (19/78/fopen): adding to final database dump
+0027.564 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_links.table.gz (20/78/fopen): adding to final database dump
+0027.564 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_postmeta.table.gz (21/78/fopen): adding to final database dump
+0027.794 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_posts.table.tmpr3618.gz (22/78/fopen): adding to final database dump
+0027.886 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_posts.table.gz (23/78/fopen): adding to final database dump
+0027.887 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_term_relationships.table.tmpr100001.gz (24/78/fopen): adding to final database dump
+0027.887 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_term_relationships.table.gz (25/78/fopen): adding to final database dump
+0027.888 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_term_taxonomy.table.tmpr31.gz (26/78/fopen): adding to final database dump
+0027.889 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_term_taxonomy.table.gz (27/78/fopen): adding to final database dump
+0027.889 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_termmeta.table.tmpr0.gz (28/78/fopen): adding to final database dump
+0027.890 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_termmeta.table.gz (29/78/fopen): adding to final database dump
+0027.891 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_terms.table.tmpr31.gz (30/78/fopen): adding to final database dump
+0027.891 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_terms.table.gz (31/78/fopen): adding to final database dump
+0027.892 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_frmt_form_entry.table.tmpr0.gz (32/78/fopen): adding to final database dump
+0027.892 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_frmt_form_entry.table.gz (33/78/fopen): adding to final database dump
+0027.893 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_frmt_form_entry_meta.table.tmpr0.gz (34/78/fopen): adding to final database dump
+0027.893 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_frmt_form_entry_meta.table.gz (35/78/fopen): adding to final database dump
+0027.894 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_frmt_form_views.table.tmpr2.gz (36/78/fopen): adding to final database dump
+0027.894 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_frmt_form_views.table.gz (37/78/fopen): adding to final database dump
+0027.895 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_fv_enteries.table.tmpr320.gz (38/78/fopen): adding to final database dump
+0027.895 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_fv_enteries.table.gz (39/78/fopen): adding to final database dump
+0027.896 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_fv_entry_meta.table.tmpr1654.gz (40/78/fopen): adding to final database dump
+0027.896 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_fv_entry_meta.table.gz (41/78/fopen): adding to final database dump
+0027.897 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_fv_logs.table.tmpr0.gz (42/78/fopen): adding to final database dump
+0027.897 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_fv_logs.table.gz (43/78/fopen): adding to final database dump
+0027.897 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_gglcptch_allowlist.table.tmpr0.gz (44/78/fopen): adding to final database dump
+0027.898 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_gglcptch_allowlist.table.gz (45/78/fopen): adding to final database dump
+0027.898 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_grp_google_place.table.tmpr0.gz (46/78/fopen): adding to final database dump
+0027.899 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_grp_google_place.table.gz (47/78/fopen): adding to final database dump
+0027.899 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_grp_google_review.table.tmpr0.gz (48/78/fopen): adding to final database dump
+0027.899 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_grp_google_review.table.gz (49/78/fopen): adding to final database dump
+0027.900 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_litespeed_url.table.tmpr0.gz (50/78/fopen): adding to final database dump
+0027.900 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_litespeed_url.table.gz (51/78/fopen): adding to final database dump
+0027.900 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_litespeed_url_file.table.tmpr0.gz (52/78/fopen): adding to final database dump
+0027.901 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_litespeed_url_file.table.gz (53/78/fopen): adding to final database dump
+0027.901 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_loginizer_logs.table.tmpr1.gz (54/78/fopen): adding to final database dump
+0027.902 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_loginizer_logs.table.gz (55/78/fopen): adding to final database dump
+0027.902 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_image_storage.table.tmpr0.gz (56/78/fopen): adding to final database dump
+0027.903 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_image_storage.table.gz (57/78/fopen): adding to final database dump
+0027.903 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_section_storage.table.tmpr10002.gz (58/78/fopen): adding to final database dump
+0027.904 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_section_storage.table.gz (59/78/fopen): adding to final database dump
+0027.905 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_generators.table.tmpr0.gz (60/78/fopen): adding to final database dump
+0027.905 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_generators.table.gz (61/78/fopen): adding to final database dump
+0027.906 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_sliders.table.tmpr2.gz (62/78/fopen): adding to final database dump
+0027.906 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_sliders.table.gz (63/78/fopen): adding to final database dump
+0027.907 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_sliders_xref.table.tmpr1.gz (64/78/fopen): adding to final database dump
+0027.908 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_sliders_xref.table.gz (65/78/fopen): adding to final database dump
+0027.908 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_slides.table.tmpr3.gz (66/78/fopen): adding to final database dump
+0027.909 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_nextend2_smartslider3_slides.table.gz (67/78/fopen): adding to final database dump
+0027.909 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_smush_dir_images.table.tmpr0.gz (68/78/fopen): adding to final database dump
+0027.910 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_smush_dir_images.table.gz (69/78/fopen): adding to final database dump
+0027.910 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_admin_note_actions.table.tmpr32.gz (70/78/fopen): adding to final database dump
+0027.911 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_admin_note_actions.table.gz (71/78/fopen): adding to final database dump
+0027.911 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_admin_notes.table.tmpr11.gz (72/78/fopen): adding to final database dump
+0027.912 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_admin_notes.table.gz (73/78/fopen): adding to final database dump
+0027.912 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_category_lookup.table.tmpr1001.gz (74/78/fopen): adding to final database dump
+0027.912 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_category_lookup.table.gz (75/78/fopen): adding to final database dump
+0027.913 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_customer_lookup.table.tmpr0.gz (76/78/fopen): adding to final database dump
+0027.913 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_customer_lookup.table.gz (77/78/fopen): adding to final database dump
+0027.914 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_download_log.table.tmpr0.gz (78/78/fopen): adding to final database dump
+0027.914 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_download_log.table.gz (79/78/fopen): adding to final database dump
+0027.915 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_coupon_lookup.table.tmpr1.gz (80/78/fopen): adding to final database dump
+0027.915 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_coupon_lookup.table.gz (81/78/fopen): adding to final database dump
+0027.915 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_product_lookup.table.tmpr0.gz (82/78/fopen): adding to final database dump
+0027.916 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_product_lookup.table.gz (83/78/fopen): adding to final database dump
+0027.916 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_stats.table.tmpr0.gz (84/78/fopen): adding to final database dump
+0027.917 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_stats.table.gz (85/78/fopen): adding to final database dump
+0027.917 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_tax_lookup.table.tmpr1.gz (86/78/fopen): adding to final database dump
+0027.918 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_order_tax_lookup.table.gz (87/78/fopen): adding to final database dump
+0027.918 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_product_meta_lookup.table.tmpr0.gz (88/78/fopen): adding to final database dump
+0027.918 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_product_meta_lookup.table.gz (89/78/fopen): adding to final database dump
+0027.919 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_reserved_stock.table.tmpr1.gz (90/78/fopen): adding to final database dump
+0027.920 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_reserved_stock.table.gz (91/78/fopen): adding to final database dump
+0027.920 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_tax_rate_classes.table.tmpr3.gz (92/78/fopen): adding to final database dump
+0027.921 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_tax_rate_classes.table.gz (93/78/fopen): adding to final database dump
+0027.921 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_webhooks.table.tmpr0.gz (94/78/fopen): adding to final database dump
+0027.922 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wc_webhooks.table.gz (95/78/fopen): adding to final database dump
+0027.922 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_weforms_entries.table.tmpr0.gz (96/78/fopen): adding to final database dump
+0027.923 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_weforms_entries.table.gz (97/78/fopen): adding to final database dump
+0027.923 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_weforms_entrymeta.table.tmpr0.gz (98/78/fopen): adding to final database dump
+0027.923 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_weforms_entrymeta.table.gz (99/78/fopen): adding to final database dump
+0027.927 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_api_keys.table.tmpr0.gz (100/78/fopen): adding to final database dump
+0027.928 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_api_keys.table.gz (101/78/fopen): adding to final database dump
+0027.928 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_attribute_taxonomies.table.tmpr0.gz (102/78/fopen): adding to final database dump
+0027.928 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_attribute_taxonomies.table.gz (103/78/fopen): adding to final database dump
+0027.929 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_downloadable_product_permissions.table.tmpr0.gz (104/78/fopen): adding to final database dump
+0027.929 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_downloadable_product_permissions.table.gz (105/78/fopen): adding to final database dump
+0027.930 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_log.table.tmpr0.gz (106/78/fopen): adding to final database dump
+0027.930 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_log.table.gz (107/78/fopen): adding to final database dump
+0027.930 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_order_itemmeta.table.tmpr0.gz (108/78/fopen): adding to final database dump
+0027.931 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_order_itemmeta.table.gz (109/78/fopen): adding to final database dump
+0027.931 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_order_items.table.tmpr0.gz (110/78/fopen): adding to final database dump
+0027.931 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_order_items.table.gz (111/78/fopen): adding to final database dump
+0027.932 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_payment_tokenmeta.table.tmpr0.gz (112/78/fopen): adding to final database dump
+0027.932 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_payment_tokenmeta.table.gz (113/78/fopen): adding to final database dump
+0027.932 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_payment_tokens.table.tmpr0.gz (114/78/fopen): adding to final database dump
+0027.933 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_payment_tokens.table.gz (115/78/fopen): adding to final database dump
+0027.933 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_sessions.table.tmpr2.gz (116/78/fopen): adding to final database dump
+0027.933 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_sessions.table.gz (117/78/fopen): adding to final database dump
+0027.933 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_shipping_zone_locations.table.tmpr0.gz (118/78/fopen): adding to final database dump
+0027.934 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_shipping_zone_locations.table.gz (119/78/fopen): adding to final database dump
+0027.934 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_shipping_zone_methods.table.tmpr0.gz (120/78/fopen): adding to final database dump
+0027.934 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_shipping_zone_methods.table.gz (121/78/fopen): adding to final database dump
+0027.935 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_shipping_zones.table.tmpr0.gz (122/78/fopen): adding to final database dump
+0027.935 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_shipping_zones.table.gz (123/78/fopen): adding to final database dump
+0027.935 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_tax_rate_locations.table.tmpr0.gz (124/78/fopen): adding to final database dump
+0027.936 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_tax_rate_locations.table.gz (125/78/fopen): adding to final database dump
+0027.936 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_tax_rates.table.tmpr0.gz (126/78/fopen): adding to final database dump
+0027.936 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_woocommerce_tax_rates.table.gz (127/78/fopen): adding to final database dump
+0027.937 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_meta.table.tmpr230.gz (128/78/fopen): adding to final database dump
+0027.937 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_meta.table.gz (129/78/fopen): adding to final database dump
+0027.938 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_order_items.table.tmpr114.gz (130/78/fopen): adding to final database dump
+0027.938 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_order_items.table.gz (131/78/fopen): adding to final database dump
+0027.938 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_order_transactions.table.tmpr114.gz (132/78/fopen): adding to final database dump
+0027.939 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_order_transactions.table.gz (133/78/fopen): adding to final database dump
+0027.939 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_submission_activities.table.tmpr120.gz (134/78/fopen): adding to final database dump
+0027.939 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_submission_activities.table.gz (135/78/fopen): adding to final database dump
+0027.940 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_submissions.table.tmpr114.gz (136/78/fopen): adding to final database dump
+0027.940 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_submissions.table.gz (137/78/fopen): adding to final database dump
+0027.940 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_subscriptions.table.tmpr0.gz (138/78/fopen): adding to final database dump
+0027.941 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpf_subscriptions.table.gz (139/78/fopen): adding to final database dump
+0027.941 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpfm_backup.table.tmpr0.gz (140/78/fopen): adding to final database dump
+0027.941 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpfm_backup.table.gz (141/78/fopen): adding to final database dump
+0027.942 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpmailsmtp_debug_events.table.tmpr0.gz (142/78/fopen): adding to final database dump
+0027.942 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpmailsmtp_debug_events.table.gz (143/78/fopen): adding to final database dump
+0027.942 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpmailsmtp_tasks_meta.table.tmpr86.gz (144/78/fopen): adding to final database dump
+0027.943 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_wpmailsmtp_tasks_meta.table.gz (145/78/fopen): adding to final database dump
+0027.943 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_indexable.table.tmpr313.gz (146/78/fopen): adding to final database dump
+0027.943 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_indexable.table.gz (147/78/fopen): adding to final database dump
+0027.944 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_indexable_hierarchy.table.tmpr1001.gz (148/78/fopen): adding to final database dump
+0027.944 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_indexable_hierarchy.table.gz (149/78/fopen): adding to final database dump
+0027.944 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_migrations.table.tmpr22.gz (150/78/fopen): adding to final database dump
+0027.945 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_migrations.table.gz (151/78/fopen): adding to final database dump
+0027.945 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_primary_term.table.tmpr2.gz (152/78/fopen): adding to final database dump
+0027.945 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_primary_term.table.gz (153/78/fopen): adding to final database dump
+0027.946 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_seo_links.table.tmpr51778.gz (154/78/fopen): adding to final database dump
+0027.946 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db-table-wpks_yoast_seo_links.table.gz (155/78/fopen): adding to final database dump
+0027.957 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz: finished writing out complete database file (15489.3 KB)
+0028.128 (0) Total database tables backed up: 78 (backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz, size: 15861105, sha1: 1acd5312bf5d2775724d53514a0c20692794bd70, sha256: 6e1bb688f74d443e7ef80905fbcb11365b2ca12822f31e1b2036a9cf6f90285e)
+0028.132 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0028.132 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0028.133 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0028.133 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-others.zip: others: This file has not yet been successfully uploaded: will queue
+0028.134 (0) backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz: db: This file has not yet been successfully uploaded: will queue
+0028.134 (0) Saving backup history. Total backup size: 162.2 MB
+0028.137 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0028.139 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0028.140 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d42f1024a1911cf183f33ea66afaf073)
+0030.860 (0) Google Drive: creating path: /UpdraftPlus
+0032.831 (0) Google Drive: quota usage: used=853.5 MB, total=15360 MB, available=14506.5 MB
+0032.833 (0) Google Drive: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Fxrb_7CUsOqhoqnpFqpRrCgLlczgJL36)
+0035.336 (0) Googledrive chunked upload: 2.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.4 / 30)
+0037.753 (0) Googledrive chunked upload: 8.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 13.4 / 30)
+0039.886 (0) Googledrive chunked upload: 19.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 13.4 / 30)
+0042.520 (0) Googledrive chunked upload: 40.8 % uploaded (15728640)
+0045.564 (0) Googledrive chunked upload: 62.6 % uploaded (24117248)
+0048.351 (0) Googledrive chunked upload: 84.4 % uploaded (32505856)
+0051.817 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0051.819 (0) Google Drive: OK: Archive backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip uploaded in 18.99 seconds
+0051.820 (0) Recording as successfully uploaded: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip
+0051.828 (0) Deleting local file: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-plugins.zip: OK
+0052.550 (0) Google Drive: quota usage: used=890.2 MB, total=15360 MB, available=14469.8 MB
+0052.551 (0) Google Drive: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-themes.zip: Attempting to upload to Google Drive (into folder id: 1Fxrb_7CUsOqhoqnpFqpRrCgLlczgJL36)
+0055.088 (0) Googledrive chunked upload: 61.8 % uploaded (1048576)
+0057.696 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0057.697 (0) Google Drive: OK: Archive backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-themes.zip uploaded in 5.15 seconds
+0057.698 (0) Recording as successfully uploaded: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-themes.zip
+0057.699 (0) Deleting local file: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-themes.zip: OK
+0058.587 (0) Google Drive: quota usage: used=891.8 MB, total=15360 MB, available=14468.2 MB
+0058.588 (0) Google Drive: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Fxrb_7CUsOqhoqnpFqpRrCgLlczgJL36)
+0061.388 (0) Googledrive chunked upload: 0.9 % uploaded (1048576)
+0063.210 (0) Googledrive chunked upload: 1.8 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 13.4 / 30)
+0065.178 (0) Googledrive chunked upload: 3.7 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 13.4 / 30)
+0067.946 (0) Googledrive chunked upload: 7.4 % uploaded (8388608)
+0070.406 (0) Googledrive chunked upload: 11 % uploaded (12582912 - increasing chunk size to 8192 KB - memory usage: 13.4 / 30)
+0073.412 (0) Googledrive chunked upload: 18.4 % uploaded (20971520)
+0076.215 (0) Googledrive chunked upload: 25.8 % uploaded (29360128)
+0079.171 (0) Googledrive chunked upload: 33.1 % uploaded (37748736)
+0081.695 (0) Googledrive chunked upload: 40.5 % uploaded (46137344)
+0084.735 (0) Googledrive chunked upload: 47.8 % uploaded (54525952)
+0087.987 (0) Googledrive chunked upload: 55.2 % uploaded (62914560)
+0091.007 (0) Googledrive chunked upload: 62.6 % uploaded (71303168)
+0093.726 (0) Googledrive chunked upload: 69.9 % uploaded (79691776)
+0096.531 (0) Googledrive chunked upload: 77.3 % uploaded (88080384)
+0099.632 (0) Googledrive chunked upload: 84.7 % uploaded (96468992)
+0103.507 (0) Googledrive chunked upload: 92 % uploaded (104857600)
+0106.486 (0) Googledrive chunked upload: 99.4 % uploaded (113246208)
+0108.683 (0) Googledrive chunked upload: 100 % uploaded (113246208)
+0108.685 (0) Google Drive: OK: Archive backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip uploaded in 50.1 seconds
+0108.685 (0) Recording as successfully uploaded: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip
+0108.706 (0) Deleting local file: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-uploads.zip: OK
+0109.516 (0) Google Drive: quota usage: used=1000.5 MB, total=15360 MB, available=14359.5 MB
+0109.517 (0) Google Drive: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-others.zip: Attempting to upload to Google Drive (into folder id: 1Fxrb_7CUsOqhoqnpFqpRrCgLlczgJL36)
+0111.659 (0) Googledrive chunked upload: 100 % uploaded
+0111.662 (0) Google Drive: OK: Archive backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-others.zip uploaded in 2.14 seconds
+0111.662 (0) Recording as successfully uploaded: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-others.zip
+0111.664 (0) Deleting local file: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-others.zip: OK
+0112.404 (0) Google Drive: quota usage: used=1000.5 MB, total=15360 MB, available=14359.5 MB
+0112.405 (0) Google Drive: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz: Attempting to upload to Google Drive (into folder id: 1Fxrb_7CUsOqhoqnpFqpRrCgLlczgJL36)
+0115.233 (0) Googledrive chunked upload: 6.6 % uploaded (1048576)
+0117.040 (0) Googledrive chunked upload: 13.2 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 13.4 / 30)
+0119.349 (0) Googledrive chunked upload: 26.4 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 13.4 / 30)
+0121.916 (0) Googledrive chunked upload: 52.9 % uploaded (8388608)
+0124.225 (0) Googledrive chunked upload: 79.3 % uploaded (12582912 - increasing chunk size to 8192 KB - memory usage: 13.4 / 30)
+0127.542 (0) Googledrive chunked upload: 100 % uploaded (12582912)
+0127.545 (0) Google Drive: OK: Archive backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz uploaded in 15.14 seconds
+0127.545 (0) Recording as successfully uploaded: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz
+0127.551 (0) Deleting local file: backup_2021-09-28-0252_Knovatek_Inc_e692bd16a3ea-db.gz: OK
+0127.553 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0127.554 (0) Number of backup sets in history: 3; groups (db): 1
+0127.554 (0) Examining (for databases) backup set with group_id=0, nonce=e692bd16a3ea, datestamp=1632797542 (Sep 28 2021 02:52:22)
+0127.555 (0) This backup set is the backup set just made, so will not be deleted.
+0127.555 (0) Examining (for databases) backup set with group_id=0, nonce=8ec5e2659108, datestamp=1629110393 (Aug 16 2021 10:39:53)
+0127.555 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0127.555 (0) Examining (for databases) backup set with group_id=0, nonce=f8ad0d1fffa4, datestamp=1628841947 (Aug 13 2021 08:05:47)
+0127.555 (0) 1628841947: db: this set includes a database (backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-db.gz); db count is now 2
+0127.555 (0) 1628841947: db: over retain limit (2); will delete this database
+0127.555 (0) Delete file: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-db.gz, service=googledrive
+0127.556 (0) Deleting local copy (backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-db.gz)
+0129.025 (0) Google Drive: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-db.gz: Deletion failed: file was not found
+0129.027 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0129.028 (0) Number of backup sets in history: 3; groups (files): 1
+0129.029 (0) Examining (for files) backup set with nonce=e692bd16a3ea, datestamp=1632797542 (Sep 28 2021 02:52:22)
+0129.029 (0) This backup set is the backup set just made, so will not be deleted.
+0129.029 (0) This backup set is the backup set just made, so will not be deleted.
+0129.029 (0) This backup set is the backup set just made, so will not be deleted.
+0129.029 (0) This backup set is the backup set just made, so will not be deleted.
+0129.030 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.030 (0) Examining (for files) backup set with nonce=8ec5e2659108, datestamp=1629110393 (Aug 16 2021 10:39:53)
+0129.030 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0129.030 (0) Examining (for files) backup set with nonce=f8ad0d1fffa4, datestamp=1628841947 (Aug 13 2021 08:05:47)
+0129.030 (0) plugins: over retain limit (2); will delete this file entity
+0129.030 (0) themes: over retain limit (2); will delete this file entity
+0129.030 (0) uploads: over retain limit (2); will delete this file entity
+0129.030 (0) others: over retain limit (2); will delete this file entity
+0129.030 (0) Delete file: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-plugins.zip, service=googledrive
+0129.031 (0) Deleting local copy (backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-plugins.zip)
+0129.034 (0) Delete file: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-themes.zip, service=googledrive
+0129.035 (0) Delete file: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-uploads.zip, service=googledrive
+0129.035 (0) Delete file: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-others.zip, service=googledrive
+0129.738 (0) Google Drive: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-plugins.zip: Deletion failed: file was not found
+0129.739 (0) Google Drive: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-themes.zip: Deletion failed: file was not found
+0129.740 (0) Google Drive: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-uploads.zip: Deletion failed: file was not found
+0129.740 (0) Google Drive: backup_2021-08-13-0805_Knovatek_Inc_f8ad0d1fffa4-others.zip: Deletion failed: file was not found
+0129.742 (0) This backup set is now empty; will remove from history
+0129.742 (0) Corresponding log file (log.f8ad0d1fffa4.txt) not found - must have already been deleted
+0129.743 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0129.763 (0) Resume backup (e692bd16a3ea, 0): finish run
+0129.764 (0) Decremented the semaphore (fd) by 1
+0129.765 (0) Semaphore (fd) unlocked
+0129.765 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0129.768 (0) No email will/can be sent - the user has not configured an email address.
+0129.768 (0) The backup apparently succeeded and is now complete

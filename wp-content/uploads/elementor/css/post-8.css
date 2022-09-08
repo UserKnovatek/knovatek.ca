@@ -1,0 +1,48 @@
+.elementor-kit-8{--e-global-color-primary:#6EC1E4;--e-global-color-secondary:#54595F;--e-global-color-text:#7A7A7A;--e-global-color-accent:#61CE70;--e-global-color-f902cde:#FFFFFF;--e-global-color-f2db46c:#16163F;--e-global-color-4532129:#D3B574;--e-global-color-dd51475:#00363D;--e-global-color-25c4fe0:#04393F;--e-global-color-5d82e8c:#00363D;--e-global-color-5ab51d8:#5D5757;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}}/* Start custom CSS */.nav_animation{
+      animation: mynav_move 2s ease-in-out infinite;
+}
+
+@keyframes mynav_move {
+  from {left: 0px;}
+  to {left: 50px;}
+}
+}
+
+.floating123{  
+    animation-name: floating;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, -5px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+/* Services Animation Nav */
+.nav_box_slider{
+    display:block;
+  padding: 5px 5px 0px 5px;
+  border-radius: 10px;
+  height: 160px;
+  width: 32%;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+  transition: 1.5s;
+}
+.nav_box_slider:hover {
+  height: 370px;
+  width: 32%;
+}
+
+#wpadminbar ul#wp-admin-bar-root-default > li:nth-child(4){display:none;!important}/* End custom CSS */
